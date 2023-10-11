@@ -1,0 +1,14 @@
+modules:
+  macro:
+    - key: my-first-confluence-app-hello-world
+      function: main
+      title: My-First-Confluence-App
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/4cbb094f-1980-4c1c-ae74-38be86d59aed
+permissions:
+  scopes:
+    - read:confluence-content.summary
